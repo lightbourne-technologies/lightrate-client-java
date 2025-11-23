@@ -160,7 +160,6 @@ public class LightRateClient {
         request.setHttpMethod(httpMethod);
         request.setUserIdentifier(userIdentifier);
         request.setTokensRequested(tokensRequested);
-        request.setTokensRequestedForDefaultBucketMatch(1);
         request.setApplicationId(configuration.getApplicationId());
 
         return consumeTokensWithRequest(request);
